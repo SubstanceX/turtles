@@ -4,17 +4,31 @@
 		<title>
 			HELLO
 		</title>
+		<link rel="stylesheet" href="/style.css" type="text/css" />
+		<script type="text/javascript" src="/style.js"></script>
 		</head>
 
 		<body>
+			<button onclick="myFunction()">Try it</button>
+			<p id="demo"></p>
+			<script>
+				function myFunction() {
+    				var person = prompt("Please enter your name", "Name here!");
+    
+    				if (person != null) {
+        				document.getElementById("demo").innerHTML =
+        			"Hello " + person + "! How are you today?";
+    }
+}
+</script>
 			<h1>HELLO WORLD!</h1>
 			<p id="turtles">World!</p>
 			<div>
 							<img src="http://www.backwaterreptiles.com/images/turtles/red-eared-slider-turtle-for-sale.jpg">
 			</div>
+		
 			
-			
-			
+
 		</body>
 		</html>
 
